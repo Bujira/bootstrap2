@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="./bootstrap-5.1.2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./bootstrap-5.1.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/TwinvoltLogoMini.png">
 
-    <title>Project</title>
+    <title>Sign In</title>
 </head>
 
 <body class="signin-body">
@@ -22,7 +23,22 @@
             <div class="col-8">
                 <div class="card signin-card">
                     <div class="card-body">
-                        This is some text within a card body.
+                        <img class="img-fluid signin-img" src="./assets/TwinvoltLogo2.png" alt="Twinvolt Logo">
+                        <form class="signin-form">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                                    placeholder="Please enter your email">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="passwordInput"
+                                    placeholder="Please enter your password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 body.signin-body {
-    background-color: rgb(255, 255, 170);
+    background-color: rgb(225, 225, 225);
 }
 
 .container.signin-container {
@@ -12,4 +12,19 @@ body.signin-body {
     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+img.signin-img {
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 2px;
+}
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
 }
