@@ -9,6 +9,7 @@ body.signin-body {
 .card.signin-card {
     padding: 40px 0px 20px;
     background-color: #f4f4f4;
+    margin-bottom: 1rem;
     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.5);
@@ -27,4 +28,18 @@ img.signin-img {
 form.signin-form {
     max-width: 350px;
     margin: auto;
+}
+
+button.signin-btn {
+    color: #fff;
+    background-color: #212529;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+a.create-new-account {
+    font-size: 1.1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
